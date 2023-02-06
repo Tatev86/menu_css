@@ -1,0 +1,48 @@
+body {
+margin: 0;
+padding: 0;
+}
+.clear {
+    clear: both;
+}
+.header {
+    background-color: rgb(26, 25, 25);
+    margin: 0;
+}
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+    margin:  10px 60px;
+    
+}
+.nav {
+    float: right;
+}
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 60px;
+    }
+.nav ul li {
+    display: inline;
+    float: left;
+
+}
+.nav a {
+    color: rgb(243, 243, 234);
+    display: block;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+
+}
+.nav a:hover {
+    background-color: rgb(37, 37, 245);
+    
+}
+    
