@@ -1,47 +1,37 @@
-body {
-margin: 0;
-padding: 0;
-}
-.clear {
-    clear: both;
-}
-.header {
-    background-color: rgb(26, 25, 25);
+html, body {
     margin: 0;
-}
-.logo {
-    float: left;
-}
-
-.logo img {
-    width: 120px;
-    margin:  10px 60px;
-    
-}
-.nav {
-    float: right;
-}
-.nav ul {
-    list-style: none;
     padding: 0;
-    margin: 10px 60px;
-    }
-.nav ul li {
-    display: inline;
-    float: left;
-
+    font-family: ‘Open Sans’, sans-serif;
+  }
+  .nav {
+    width: 300px;
+    margin-left: 30px;
+  }
+  .subcategotes {
+    display: none;
+    background-color: rgb(201, 83, 47);
+    position: absolute;left: 130px;
+  }
+  .list:hover > .subcategotes {
+    display: block;
+    position: relative;
 }
-.nav a {
-    color: rgb(243, 243, 234);
+  .main-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .main-menu a {
+    display: block;
     padding: 10px;
-    display: inline-block;
-    border: none;
+    background-color: rgb(112, 10, 10);
+    color: #fff;
     text-decoration: none;
-    border-radius: 16px;
-
-}
-.nav a:hover {
-    background-color: rgb(37, 37, 245);
-    
-}
-    
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  .main-menu a:hover {
+    cursor: pointer;
+    background-color: rgb(221, 117, 117);
+  }
+  
