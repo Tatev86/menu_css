@@ -10,30 +10,35 @@
 </head>
 
 <body>
-  <nav class="nav">
-    <ul class="main-menu">
-      <li><a href="#">Home</a></li>
-        <li><a href=" #">About</a></li>
-      <li><a href="#">Contact</a></li>
-        <li class="list">
-          <ul class="subcategotes">
-            <a href="#">Categories</a>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </ul>
-            </div>
-            </div>
-        </a></li>
-
-
-      </div>
-
-      <li><a href="#"">Articles</a></li>
-        <li><a href=" #">Services</a></li>
+  <nav>
+    <ul class="main-manu">
+      <li> <a href="#" class="menu-item">Home</a></li>
+      <li class="parent-menu"> <a href="#" class="menu-item">About</a>
+        <ul class="sub">
+          <li> <a href="#" class="menu-item test1">Home1</a></li>
+          <li class="parent-menu"> <a href="#" class="menu-item test1">Home2</a>
+            <ul class="sub">
+              <li><a href="#" class="menu-item test2">List1</a></li>
+              <li class="parent-menu"><a href="#" class="menu-item test2">List2</a>
+              <ul class="sub">
+                <li><a href="#" class="menu-item test3">Test</a></li>
+                <li><a href="#" class="menu-item test3">Test2</a></li>
+                <li><a href="#" class="menu-item test3">Test3</a></li>
+              </ul>
+              </li>
+              <li><a href="#" class="menu-item test2">List3</a></li>
+              <li><a href="#" class="menu-item test2">List4</a></li>
+            </ul>
+          </li>
+          <li> <a href="#" class="menu-item test1">Home3</a></li>
+          <li> <a href="#" class="menu-item test1">Home4</a></li>
+        </ul>
+      </li>
+      <li> <a href="#" class="menu-item">Categoies</a></li>
+      <li> <a href="#" class="menu-item">News</a></li>
+      <li> <a href="#" class="menu-item">Contacts</a></li>
     </ul>
   </nav>
-  <script src="script.js"></script>
 </body>
 
 </html>
